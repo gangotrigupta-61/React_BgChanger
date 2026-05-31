@@ -8,12 +8,12 @@ function App() {
     
     <div className=" w=full h-screen" style={{backgroundColor:color}}>
      
-     <h1 className="text-white text-6xl text-center">Background Changer</h1>
+     <h1 className="text-white text-6xl text-center pt-5">Background Changer</h1>
 
 
-     <div className="pt-155">
+     <div className="pt-145">
      
-      <div className="text-black bg-white flex gap-7 justify-center ml-10 mr-10 rounded-2xl h-13 py-2 " >
+      <div className="text-black bg-white flex gap-6 justify-center ml-35 mr-35 rounded-2xl h-13 py-2 " >
 
         <button onClick={()=> setcolor("red") } 
         className="px-4 py-1 rounded-full text-white" style={{backgroundColor:"red"}}>Red</button>
@@ -61,6 +61,9 @@ function App() {
         </div> 
       </div>
 
+
+
+    <p className="text-2xl text-center text-cyan-50 mt-8">Made with &hearts; by Gangotri</p>
     </div>
       
     
